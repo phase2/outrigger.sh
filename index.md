@@ -1,3 +1,8 @@
+---
+layout: default
+title: {{ site.name }}
+---
+
 ## Outrigger
 
 You can use the [editor on GitHub](https://github.com/phase2/outrigger.sh/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
