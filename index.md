@@ -23,22 +23,22 @@ title: {{ site.name }}
       <h1 class="text-center">Why use Outrigger?</h1>
       
       <h3 class="text-center">Accelerate Development</h3>
-      <p class="text-center">
+      <p class="text-center lead">
         Project and environment setup that used to take days or weeks, now just takes minutes.
       </p>
       
       <h3 class="text-center">Best Practices</h3>
-      <p class="text-center">
+      <p class="text-center lead">
         Start your team on the right foot from the very beginning. Grow your team easily.
       </p>
       
       <h3 class="text-center">Synchronize Environments</h3>
-      <p class="text-center">
+      <p class="text-center lead">
         Transparently host complete project environments locally or remotely.
       </p>
       
       <h3 class="text-center">Master Containerization</h3>
-      <p class="text-center">
+      <p class="text-center lead">
         Learn, teach and excel at container technology.
       </p>
     </div>
@@ -52,7 +52,7 @@ title: {{ site.name }}
       <h1 class="text-center">Tech and Tools</h1>
       <p class="text-center lead">
         Outrigger uses a containerization based approach to provide project environments. Docker is the container platform, 
-        and a (coming soon) set of Yeoman based generators are used to help initial project setup to ensure all pieces fit 
+        and a <em>(coming soon)</em> set of Yeoman based generators are used to help initial project setup to ensure all pieces fit 
         together.
       </p>
       <p class="text-center">
