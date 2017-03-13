@@ -1,10 +1,17 @@
 version: "2.1"
 
 services:
-  docs:
+  jekyll:
     image: jekyll/jekyll:pages
     network_mode: "bridge"
+    command: ["/usr/local/bin/jekyll", "serve"]
     volumes:
       - $PWD:/srv/jekyll
     environment:
-      POLLING: true
+      POLLING: "true"
+    labels:
+      com.dnsdock.name: "web"
+      com.dnsdock.image: "outrigger"
+    ports:
+      - 4000:80
+
