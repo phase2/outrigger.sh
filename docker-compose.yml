@@ -1,0 +1,10 @@
+version: "2.1"
+
+services:
+  docs:
+    image: jekyll/jekyll:pages
+    network_mode: "bridge"
+    volumes:
+      - $PWD:/srv/jekyll
+    environment:
+      POLLING: true
