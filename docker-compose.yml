@@ -10,8 +10,6 @@ services:
     environment:
       POLLING: "true"
     labels:
-      com.dnsdock.name: "web"
+      com.dnsdock.name: "website"
       com.dnsdock.image: "outrigger"
-    ports:
-      - 4000:80
 

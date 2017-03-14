@@ -3,3 +3,4 @@ tagline:  Docker based development environments in minutes
 author:
   name:       Phase2
   url:        https://www.phase2technology.com
+exclude: ["CNAME", "docker-compose.yml", "README.md"]

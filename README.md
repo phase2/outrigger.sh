@@ -7,4 +7,4 @@ This is the repo for the [http://outrigger.sh](http://outrigger.sh) website. It 
 * Check out this repo
 * Using Outrigger
    * In the repo root, run `docker-compose up`
-   * Visit [http://web.outrigger.vm/](http://web.outrigger.vm/)
+   * Visit [http://website.outrigger.vm:4000/](http://website.outrigger.vm:4000/)
