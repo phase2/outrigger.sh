@@ -1,0 +1,31 @@
+@import '_variables';
+@import '_navbar';
+
+body {
+  color: $darkgrey;
+  font-family: $sourcesans;
+  padding-top: 70px;
+}
+
+section {
+  background-color: #ffffff;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+section > h1 {
+  padding-bottom: 25px;
+}
+
+h1 {
+  font-family: $oswald;
+}
+
+a {
+  color: $teal;
+
+  &:hover {
+    color: $navy;
+    text-decoration: none;
+  }
+}
