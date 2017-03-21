@@ -22,9 +22,9 @@
     font-size: 2.5rem; }
   .jumbotron .logo-image {
     max-width: 12.5rem; }
-
-.media-body {
-  padding-left: 1.25rem; }
+  .jumbotron .media-body {
+    max-width: 640px;
+    padding-left: 1.25rem; }
 
 .box {
   padding: 1em; }

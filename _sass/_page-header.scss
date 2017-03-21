@@ -12,12 +12,9 @@
     max-width: rem-calc(200px);
   }
 
-  .project-title__wrapper {
-    // align-items: center;
+  .media-body {
+    max-width: 640px;
+    padding-left: rem-calc(20px);
+
   }
-}
-
-
-.media-body {
-  padding-left: rem-calc(20px);
 }
