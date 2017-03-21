@@ -1,8 +1,9 @@
 .jumbotron {
+  align-items: center;
   background-color: $white;
   display: flex;
-  align-items: center;
   justify-content: center;
+  margin-bottom: 0px;
 
   & h2 {
     font-size: rem-calc(40px);

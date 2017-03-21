@@ -1,9 +1,9 @@
-$box-padding: 1em;
+$box-padding: 3em;
 
 .box {
 	padding: $box-padding;
-
 	&.features {
+
 		.features-row {
 			position: relative;
 
@@ -25,7 +25,7 @@ $box-padding: 1em;
 				&:nth-child(2n) {
 					padding-right: 0;
 				}
-//something needs to change in this area ??
+
 				&:nth-child(2n-1) {
 					padding-left: 0;
 				}
@@ -53,5 +53,24 @@ $box-padding: 1em;
 
 	&.special {
 		text-align: center;
+	}
+
+	@include mobile {
+		$box-padding-vertical: 2em;
+		$box-padding-horizontal: 1em;
+
+		padding: $box-padding-vertical $box-padding-horizontal;
+
+		&.features {
+			.features-row {
+				section {
+					border: 0;
+					float: none;
+					margin: $box-padding-vertical 0 0 0 !important;
+					padding: $box-padding-vertical 0 0 0 !important;
+					width: 100%;
+				}
+			}
+		}
 	}
 }
