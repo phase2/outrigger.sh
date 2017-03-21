@@ -1,10 +1,13 @@
-@import '_variables';
-@import '_function';
-@import '_navbar';
-@import '_page-header';
-@import '_box-grid';
-@import '_icons';
-@import '_button';
+---
+---
+
+@import 'variables';
+@import 'function';
+@import 'navbar';
+@import 'page-header';
+@import 'box-grid';
+@import 'icons';
+@import 'button';
 
 body {
   color: $darkgrey;

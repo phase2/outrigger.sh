@@ -4,3 +4,5 @@ author:
   name:       Phase2
   url:        https://www.phase2technology.com
 exclude: ["CNAME", "docker-compose.yml", "README.md"]
+sass:
+  style: compressed
