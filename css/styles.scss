@@ -1,0 +1,44 @@
+---
+---
+
+@import 'variables';
+@import 'function';
+@import 'navbar';
+@import 'page-header';
+@import 'box-grid';
+@import 'icons';
+@import 'button';
+
+body {
+  color: $darkgrey;
+  font-family: $sourcesans;
+  padding-top: rem-calc(70px);
+}
+
+section {
+  background-color: #ffffff;
+  padding-bottom: rem-calc(50px);
+  padding-top: rem-calc(50px);
+}
+
+section > h1 {
+  margin-top: rem-calc(50px);
+  padding-bottom: rem-calc(25px);
+}
+
+h1 {
+  font-family: $oswald;
+}
+
+a {
+  color: $teal;
+
+  &:hover {
+    color: $navy;
+    text-decoration: none;
+  }
+}
+
+.container {
+  margin: 0 auto;
+}

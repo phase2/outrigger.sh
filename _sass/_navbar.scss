@@ -1,0 +1,25 @@
+.navbar-brand {
+  font-family: $oswald;
+}
+
+.navbar-default {
+  & .navbar-brand {
+  color: $white;
+
+    &:hover, &:active, &:focus {
+      color: $white;
+    }
+  }
+
+  & .navbar-nav > li > a {
+    color: $white;
+
+    &:hover {
+      color: $lightestgrey;
+    }
+  }
+}
+
+.navbar {
+  background-color: $navy;
+}
