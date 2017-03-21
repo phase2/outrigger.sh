@@ -1,4 +1,4 @@
-$box-padding: 3em;
+$box-padding: 2em;
 
 .box {
 	padding: $box-padding;
@@ -57,7 +57,7 @@ $box-padding: 3em;
 
 	@include mobile {
 		$box-padding-vertical: 2em;
-		$box-padding-horizontal: 1em;
+		$box-padding-horizontal: 2em;
 
 		padding: $box-padding-vertical $box-padding-horizontal;
 
