@@ -1,119 +1,57 @@
-$box-padding: 3em;
+$box-padding: 1em;
 
-	.box {
-		background: #fff;
-		border-radius: _size(border-radius);
-		box-shadow: 0 2px 0 0 _palette(border);
-		margin: 0 0 _size(element-margin) 0;
-		padding: $box-padding;
+.box {
+	padding: $box-padding;
 
-		> :last-child {
-			margin-bottom: 0;
-		}
+	&.features {
+		.features-row {
+			position: relative;
 
-		&.alt {
-			background: none !important;
-			border-radius: 0 !important;
-			box-shadow: none !important;
-			margin: 0 0 _size(element-margin) 0;
-			padding: 0 !important;
-		}
+			&:after {
+				clear: both;
+				content: '';
+				display: block;
+			}
 
-		&.features {
-			.features-row {
-				border-top: solid 2px _palette(border);
-				position: relative;
+			section {
+				float: left;
+				padding: $box-padding;
+				width: 50%;
 
-				&:after {
-					clear: both;
-					content: '';
-					display: block;
+				:last-child {
+					margin-bottom: 0;
 				}
 
-				section {
-					float: left;
-					padding: $box-padding;
-					width: 50%;
-
-					:last-child {
-						margin-bottom: 0;
-					}
-
-					&:nth-child(2n) {
-						&:before {
-							background: _palette(border);
-							content: '';
-							display: block;
-							height: 100%;
-							margin-left: -3em;
-							position: absolute;
-							top: 0;
-							width: 2px;
-						}
-
-						padding-right: 0;
-					}
-
-					&:nth-child(2n-1) {
-						padding-left: 0;
-					}
+				&:nth-child(2n) {
+					padding-right: 0;
+				}
+//something needs to change in this area ??
+				&:nth-child(2n-1) {
+					padding-left: 0;
 				}
 
-				&:first-child {
-					border-top: 0;
-
-					section {
-						padding-top: 0;
-					}
-				}
-
-				&:last-child {
-					padding-bottom: 0;
-
-					section {
-						padding-bottom: 0;
-					}
+				& h3 {
+					font-size: rem-calc(35px);
 				}
 			}
-		}
 
-		&.special {
-			text-align: center;
-		}
-
-		.image {
-			&.featured {
-				border-radius: 0;
-				display: block;
-				margin: $box-padding 0 $box-padding ($box-padding * -1);
-				position: relative;
-				width: calc(100% + #{$box-padding * 2});
-
-				img {
-					border-radius: 0;
-					display: block;
-					width: 100%;
+			&:first-child {
+				section {
+					padding-top: 0;
 				}
+			}
 
-				&:first-child {
-					border-radius: _size(border-radius) _size(border-radius) 0 0;
-					margin-bottom: $box-padding;
-					margin-top: $box-padding * -1;
+			&:last-child {
+				padding-bottom: 0;
 
-					img {
-						border-radius: _size(border-radius) _size(border-radius) 0 0;
-					}
-				}
-
-				&:last-child {
-					border-radius: 0 0 _size(border-radius) _size(border-radius);
-					margin-bottom: $box-padding * -1;
-					margin-top: $box-padding;
-
-					img {
-						border-radius: 0 0 _size(border-radius) _size(border-radius);
-					}
+				section {
+					padding-bottom: 0;
 				}
 			}
 		}
 	}
+
+	&.special {
+		text-align: center;
+	}
+}

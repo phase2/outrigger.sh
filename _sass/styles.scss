@@ -1,23 +1,26 @@
 @import '_variables';
+@import '_function';
 @import '_navbar';
 @import '_page-header';
 @import '_box-grid';
 @import '_icons';
+@import '_button';
 
 body {
   color: $darkgrey;
   font-family: $sourcesans;
-  padding-top: 70px;
+  padding-top: rem-calc(70px);
 }
 
 section {
   background-color: #ffffff;
-  padding-bottom: 50px;
-  padding-top: 50px;
+  padding-bottom: rem-calc(50px);
+  padding-top: rem-calc(50px);
 }
 
 section > h1 {
-  padding-bottom: 25px;
+  margin-top: rem-calc(50px);
+  padding-bottom: rem-calc(25px);
 }
 
 h1 {
@@ -31,4 +34,8 @@ a {
     color: $navy;
     text-decoration: none;
   }
+}
+
+.container {
+  margin: 0 auto;
 }

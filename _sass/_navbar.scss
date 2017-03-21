@@ -6,8 +6,8 @@
   & .navbar-brand {
   color: $white;
 
-    &:hover {
-      color: $lightestgrey;
+    &:hover, &:active, &:focus {
+      color: $white;
     }
   }
 

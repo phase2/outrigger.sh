@@ -1,3 +1,23 @@
 .jumbotron {
   background-color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & h2 {
+    font-size: rem-calc(40px);
+  }
+
+  .logo-image {
+    max-width: rem-calc(200px);
+  }
+
+  .project-title__wrapper {
+    // align-items: center;
+  }
+}
+
+
+.media-body {
+  padding-left: rem-calc(20px);
 }
