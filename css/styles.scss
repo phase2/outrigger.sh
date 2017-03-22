@@ -3,6 +3,7 @@
 
 @import 'variables';
 @import 'function';
+@import 'mixins';
 @import 'navbar';
 @import 'page-header';
 @import 'box-grid';
@@ -21,7 +22,7 @@ section {
   padding-top: rem-calc(50px);
 }
 
-section > h1 {
+section > h1, .row > h1 {
   margin-top: rem-calc(50px);
   padding-bottom: rem-calc(25px);
 }
