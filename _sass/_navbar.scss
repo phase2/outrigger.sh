@@ -14,7 +14,7 @@
   & .navbar-nav > li > a {
     color: $white;
 
-    &:hover {
+    &:hover, &:focus {
       color: $lightestgrey;
     }
   }
