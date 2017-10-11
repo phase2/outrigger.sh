@@ -82,3 +82,15 @@ title: {{ site.name }}
     </div>
   </div>
 </section>
+
+<a name="support"></a>
+<section>
+  <div class="container">
+    <div class="row">
+    <h1 class="text-center">Support</h1>
+    <p class="text-center lead">
+      Join us on <a href="http://slack.outrigger.sh">Slack</a> and follow us on <a href="https://twitter.com/outrigger_sh">Twitter</a>
+    </p>
+    </div>
+  </div>
+</section>
